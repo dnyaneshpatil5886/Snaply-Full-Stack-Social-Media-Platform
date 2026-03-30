@@ -19,7 +19,7 @@ const ChatPage = ({ socket }) => {
     const dispatch = useDispatch();
 
     const sendMessageHandler = async (receiverId) => {
-        if (!textMessage.trim()) return;
+        if (!textMessage.trim()) return//;
         try {
             const res = await axios.post(
                 `http://localhost:8000/api/v1/message/send/${receiverId}`,
