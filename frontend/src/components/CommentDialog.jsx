@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 import { Link } from 'react-router-dom'
 import { MoreHorizontal } from 'lucide-react'
 import { Button } from './ui/button'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'//
 import Comment from './Comment'
 import toast from 'react-hot-toast'
 import { setPosts } from '@/redux/postSlice'
