@@ -9,7 +9,7 @@ import { AtSign, Heart, MessageCircle } from 'lucide-react'
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import { setAuthUser, setUserCopy } from '@/redux/authSlice'
-
+//
 const Profile = () => {
   
   const params = useParams();
