@@ -5,7 +5,7 @@ import axios from 'axios'
 import instalogo2 from '../assets/instalogo2.png'
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'//
 import { useSelector } from 'react-redux'
 
 const Signup = () => {
