@@ -4,7 +4,7 @@ const cookieParser = require('cookie-parser');
 const connectDB = require('./utils/db');
 const userRouter = require('./routes/user.routes')
 const postRouter = require('./routes/post.routes');
-const messageRouter = require('./routes/message.routes');
+const messageRouter = require('./routes/message.routes');//
 const {app, server} = require('./socket/socket');
 require('dotenv').config();
 
