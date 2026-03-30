@@ -9,7 +9,7 @@ import toast from 'react-hot-toast'
 import axios from 'axios'
 import { useDispatch, useSelector } from 'react-redux'
 import store from '@/redux/store'
-import { setPosts } from '@/redux/postSlice'
+import { setPosts } from '@/redux/postSlice'//
 
 const CreatePost = ({ open, setOpen }) => {
     const imgRef = useRef()
